@@ -38,7 +38,7 @@ h1 {
 .button-xyz {
     background-color: #6f9070;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     width: 250px;
     margin: 25px auto;
     padding: 15px 0;
@@ -421,4 +421,5 @@ button[type=button]:hover {
     border-style: outset;
     border-width: 5px;
     border-color: #d1eaff;
+
 }
