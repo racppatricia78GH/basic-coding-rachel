@@ -333,23 +333,6 @@ color: #ffffff;}
     font-size: 18px;
 }
 
-@media (max-width: 1000px) {
-    .section-daun h2 {font-size: 48px;}
-    .photo-wrap img {height: 300px;}
-    .name-box {font-size: 26px;}
-}
-
-@media (max-width: 700px) {
-    .top-categories {flex-direction: column;}
-    .card-row {flex-direction: column;}
-    .zoo-image {margin-top: 10px;}
-    .section-daun h2 {font-size: 36px;}
-    .caption {font-size: 18px; bottom: 18px;}
-    .photo-wrap img {height: 260px;}
-    .name-box {font-size: 22px;}
-    .board {width: 340px; height: 110px; top: 6px;}
-}
-
 /* ===Table-form=== */
 #table {
     background-image: url(image/salju.jpeg);
@@ -423,3 +406,4 @@ button[type=button]:hover {
     border-color: #d1eaff;
 
 }
+
