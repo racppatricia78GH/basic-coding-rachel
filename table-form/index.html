@@ -2,31 +2,30 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"
+    <meta charset="UTF-8">
     <meta name="viewport" content="device-width, initial-scale=1.0">
     <title>Table & Form</title>
     <link rel="stylesheet" href="../css/style-css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Coiny&family=Passero+One&family=Zen+Antique&display=swap" rel="stylesheet">
 </head>
 
 <body id="table">
 
 <style>
         table, th, td {
-            border: 1px solid black;
+            border: 1px solid;
             text-align: center;
         }
        
         h1 {font-weight: normal; margin: 10px auto;}
-        h2 {font-weight: normal;
-            margin: 0;}
-        h3 {font-weight: normal;
-            margin: 0;}
+        h2 {font-weight: normal;}
+        h3 {font-weight: normal;}
     </style>
 
     <h1 id="h1-table">対戦結果</h1>
-    <h2>第73回JABA九州大会</h2>
-    <h3>2021年5月9日(日) 9:00</h3>
-    <h3>試合会場：オーヴィジョンスタジアム下関</h3><br>
+    <h2 id="h2-table">第73回JABA九州大会</h2>
+    <h3 id="h3-table">2021年5月9日(日) 9:00</h3>
+    <h3 id="h3-table2">試合会場：オーヴィジョンスタジアム下関</h3><br>
 
     <table style="width: 1000px;">
         <tr>
@@ -110,11 +109,10 @@
         </select><br><br>
 
         <label for="naiyou">お問い合わせ内容 [必須]</label><br>
-        <textarea id="naiyou" name="naiyou" rows="5" cols="40" required></textarea><br>
+        <textarea id="naiyou" name="naiyou" rows="4" cols="125" required></textarea><br>
 
         <button type="button">確認</button>
 
     </form>
 </body>
-
 </html>
