@@ -62,21 +62,6 @@
     cursor: pointer;
     transition-duration: 0.4s;
 }
-
-.button-restoran {
-    background-color: #ff8c00;
-    text-decoration: none;
-    color: #ffffff;
-    width: 260px;
-    margin: 25px auto;
-    padding: 15px 0;
-    font-family: "Coiny", system-ui;
-    font-size: 30px;
-    display: block;
-    border-radius: 15px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
    
 .button-xyz:hover {
     background-color: #04AA6D;
@@ -88,9 +73,6 @@
     color: white;
 }
 
-.button-restoran:hover {
-    background-color: #d86900;
-}
 
 /* =====Zoo====- */
 #Zoo
